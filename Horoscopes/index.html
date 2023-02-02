@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Itim&family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Horoscopes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <img src="img/Zodiac.png" width="100px" height="100px">
+            <ul>
+                <li><a href="#">Horoscopes</a></li>
+                <li><a href="#">Daily</a></li>
+                <li> <a href="#">Monthly</a></li>
+                <li> <a href="#">Yearly</a> </li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="date">
+                <div class="date-radios" id="date-radios"></div>
+                <div class="gifs-check">
+                    <label for="gifs-only-option" class="gifs-check-label">Animated GIFs</label>
+                    <input type="checkbox" id="gifs-only-option">
+                </div>
+                <button class="get-image-btn" id="get-image-btn">Click</button>
+            </div>
+            <div class="info">
+                 <img src="img/karışıkk.gif" height="460px" id="mix-img" > 
+                 <p id="first-info"> <span class='firstInfoSpan'>The horoscope</span> serves as a stylized map of the heavens over a specific location at a particular moment in time. In most
+                applications the perspective is geocentric (heliocentric astrology being one exception). The positions of the actual
+                planets (including Sun and Moon) are placed in the chart, hose of purely calculated factors such as the lunar nodes, the
+                house cusps including the midheaven and the ascendant, zodiac signs, fixed stars and the lots. Angular relationships
+                between the planets themselves and other points, called aspects, are typi, including weakness. <br> <span class='firstInfoSpan'>The Zodiac</span> or "circle of animals" is a zone or belt in space projected onto the celestial sphere through
+                which, from our viewpoint,
+                the planets move. A symbolic geometric construction around 16 degrees wide, it is divided into 12 signs, each of 30
+                degrees longitude (making 360 degrees, a full circle), with the ecliptic, the apparent path of the Sun, as its middle
+                line.[15] The tropical zodiac used by most Western astrologers has its beginning at the exact moment that the Sun
+                crosses the celestial equator and enters the zodiacal sign of Aries. Some Western astrologers use the sidereal zodiac
+                favored by Indian ("Jyotish") astrologers, which is based more closely on actual positions of constellations in the
+                heavens, as opposed to the tropical zodiac, which is a moveable format based on the seasons.</p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="meme-modal" id="meme-modal">
+        <button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
+        <div id="meme-modal-inner"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
